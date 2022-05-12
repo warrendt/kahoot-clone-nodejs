@@ -25,9 +25,9 @@ var url = "mongodb://localhost:27017/";
 app.use(express.static(publicPath));
 
 //Starting server on port 3000
-server.listen(3000, () => {
-    console.log("Server started on port 3000");
-});
+//server.listen(3000, () => {
+//    console.log("Server started on port 3000");
+//});
 
 //When a connection to server is made from client
 io.on('connection', (socket) => {
